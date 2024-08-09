@@ -234,11 +234,11 @@ Material:
     - _NoiseIntensity: 0
     - _NumLayersCount: 1
     - _OcclusionStrength: 1
-    - _OutlineDepthOffset: 0.01
+    - _OutlineDepthOffset: 0.03
     - _OutlineEnabled: 1
     - _OutlineScale: 1
     - _OutlineSpace: 0
-    - _OutlineWidth: 1.3
+    - _OutlineWidth: 1
     - _OverrideLightmapDir: 0
     - _Parallax: 0.005
     - _ProjectionAngleDiscardEnable: 0
