@@ -234,7 +234,7 @@ Material:
     - _NoiseIntensity: 0
     - _NumLayersCount: 1
     - _OcclusionStrength: 1
-    - _OutlineDepthOffset: 0.03
+    - _OutlineDepthOffset: 0.02
     - _OutlineEnabled: 1
     - _OutlineScale: 1
     - _OutlineSpace: 0

@@ -14,6 +14,7 @@ Material:
   m_ValidKeywords:
   - DR_OUTLINE_ON
   - DR_RIM_ON
+  - DR_SPECULAR_ON
   - _CELPRIMARYMODE_SINGLE
   - _DETAILMAPBLENDINGMODE_MULTIPLY
   - _GRADIENTSPACE_WORLD
@@ -146,7 +147,7 @@ Material:
     - _LightmapDirectionYaw: 0
     - _Metallic: 0.685
     - _OcclusionStrength: 1
-    - _OutlineDepthOffset: 0.03
+    - _OutlineDepthOffset: 0.02
     - _OutlineEnabled: 1
     - _OutlineScale: 1
     - _OutlineSpace: 0
@@ -162,7 +163,7 @@ Material:
     - _ShadowEdgeSizeExtra: 0.05
     - _Smoothness: 0.543
     - _SmoothnessTextureChannel: 0
-    - _SpecularEnabled: 0
+    - _SpecularEnabled: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -178,21 +179,21 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.7169812, g: 0.5017639, b: 0.36187258, a: 1}
+    - _BaseColor: {r: 0.7176471, g: 0.4384332, b: 0.36078432, a: 1}
     - _Color: {r: 0.9056604, g: 0.590218, b: 0.3887504, a: 1}
-    - _ColorDim: {r: 0.2735849, g: 0.13636774, b: 0.04774831, a: 1}
+    - _ColorDim: {r: 0.18867922, g: 0.08406306, b: 0.04004984, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorGradient: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _DetailMapColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FlatRimColor: {r: 0.9056604, g: 0.590218, b: 0.3887504, a: 1}
-    - _FlatSpecularColor: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+    - _FlatRimColor: {r: 0.90588236, g: 0.44551688, b: 0.38823533, a: 1}
+    - _FlatSpecularColor: {r: 1, g: 0.2165822, b: 0.18396229, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _UnityShadowColor: {r: 0.36862746, g: 0.18039216, b: 0.058823533, a: 1}
+    - _UnityShadowColor: {r: 0.18823531, g: 0.08235294, b: 0.039215688, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &3602465717783619579
 MonoBehaviour:
